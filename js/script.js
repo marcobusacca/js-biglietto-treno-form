@@ -16,5 +16,3 @@ console.log(`sconto_minorenni : ${sconto_minorenni}%`);
 
 const sconto_over_65 = 40;
 console.log(`sconto_over_65 : ${sconto_over_65}%`);
-
-console.log(document.getElementById(input_nome_completo))
