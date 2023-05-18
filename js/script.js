@@ -2,8 +2,8 @@
 let nome_completo_utente;
 let numero_chilometri_utente;
 let fascia_età_utente;
-let prezzo_biglietto_totale;
 let sconto_biglietto;
+let prezzo_biglietto_totale;
 
 // DICHIARAZIONE VARIABILI DI OUTPUT
 let nome_completo_utente_output = document.getElementById('nome_completo_utente');
