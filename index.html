@@ -24,6 +24,61 @@
     </head>
 
     <body>
-        
+        <!-- Form Input Dati dall'utente -->
+        <div class="container border border-black">
+            <!-- Form Input Title -->
+            <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <!-- Form Input -->
+            <form action="#" method="POST">
+                <div class="row m-auto my-5">
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Input Nome Completo Title -->
+                            <h6 class="text-center w-100">Nome Cognome</h6>
+                            <!-- Input Nome Completo -->
+                            <input type="text" name="nome_completo_user" id="input_nome_completo">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Input Km Title -->
+                            <h6 class="text-center w-100">Km da percorrere</h6>
+                            <!-- Input Km -->
+                            <input type="text" name="km_user" id="input_km">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Select Eta Title -->
+                            <h6 class="text-center w-100">Fascia d'età</h6>
+                            <!-- Select Eta -->
+                            <select name="select_eta" class="d-block" id="select_eta">
+                                <!-- Option 1 -->
+                                <option value="maggiorenne">Maggiorenne</option>
+                                <!-- Option 2 -->
+                                <option value="minorenne">Minorenne</option>
+                                <!-- Option 3 -->
+                                <option value="over_65">Over 65</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div class="col-12 my-5">
+                        <div class="input_form_content d-flex justify-content-center">
+                            <!-- Button Genera -->
+                            <button type="submit" class="mx-3">Genera</button>
+                            <!-- Button Annulla -->
+                            <button type="submit" class="mx-3">Annulla</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Output Dati per l'utente -->
+        <div class="container">
+            <div class="row"></div>
+        </div>
     </body>
 </html>
