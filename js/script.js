@@ -2,8 +2,8 @@
 let nome_completo_utente;
 let numero_chilometri_utente;
 let fascia_età_utente;
-let sconto_biglietto;
 let prezzo_biglietto_totale;
+let sconto_biglietto;
 
 // DICHIARAZIONE VARIABILI DI OUTPUT
 let nome_completo_utente_output = document.getElementById('nome_completo_utente');
@@ -99,6 +99,29 @@ if (button_genera){
         console.log("prezzo_biglietto_totale :", prezzo_biglietto_totale);
     })
 } else{
-    alert("Non trovo il bottone!")
-    throw new Error("Non trovo il bottone!");
+    alert("Non trovo il bottone 'genera'!")
+    throw new Error("Non trovo il bottone 'genera'!");
+}
+
+if (button_annulla){
+    button_annulla.addEventListener("click", function(){
+        // RESET NOME COMPLETO IN OUTPUT
+        nome_completo_utente_output.innerHTML = "";
+
+        // RESET TIPO DI BIGLIETTO IN OUTPUT
+        document.getElementById('tipo_biglietto').innerHTML = "";
+
+        // RESET NUMERO CARROZZA IN OUTPUT
+        document.getElementById('numero_carrozza').innerHTML = "";
+
+        // RESET CODICE CP IN OUTPUT
+        document.getElementById('numero_codice_cp').innerHTML = "";
+
+        // RESET PREZZO BIGLIETTO TOTALE IN OUTPUT
+        prezzo_biglietto_totale_output.innerHTML = "";
+    })
+
+} else{
+    alert("Non trovo il bottone 'annulla'!")
+    throw new Error("Non trovo il bottone 'annulla'!");
 }

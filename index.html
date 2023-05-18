@@ -24,62 +24,64 @@
     </head>
 
     <body>
+        <!-- Form -->
         <!-- Form Input Dati dall'utente -->
         <div class="container border border-black my-5">
             <!-- Form Input Title -->
             <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
             <!-- Form Input -->
-            <!-- Form Input Row -->
-            <div class="row m-auto my-5">
-                <!-- Form Input Col Nome Cognome -->
-                <div class="col-4">
-                    <div class="input_form_content d-flex flex-wrap justify-content-center">
-                        <!-- Input Nome Completo Title -->
-                        <h6 class="text-center w-100">Nome Cognome</h6>
-                        <!-- Input Nome Completo -->
-                        <input type="text" name="nome_completo_user" id="input_nome_completo">
+            <form action="#" method="POST">
+                <!-- Form Input Row -->
+                <div class="row m-auto my-5">
+                    <!-- Form Input Col Nome Cognome -->
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Input Nome Completo Title -->
+                            <h6 class="text-center w-100">Nome Cognome</h6>
+                            <!-- Input Nome Completo -->
+                            <input type="text" name="nome_completo_user" id="input_nome_completo">
+                        </div>
+                    </div>
+                    <!-- Form Input Col Km da percorrere -->
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Input Km Title -->
+                            <h6 class="text-center w-100">Km da percorrere</h6>
+                            <!-- Input Km -->
+                            <input type="text" name="km_user" id="input_km">
+                        </div>
+                    </div>
+                    <!-- Form Input Col Fascia d'età -->
+                    <div class="col-4">
+                        <div class="input_form_content d-flex flex-wrap justify-content-center">
+                            <!-- Select Eta Title -->
+                            <h6 class="text-center w-100">Fascia d'età</h6>
+                            <!-- Select Eta -->
+                            <select name="select_eta" class="d-block" id="select_eta">
+                                <!-- Option 1 -->
+                                <option value="maggiorenne">Maggiorenne</option>
+                                <!-- Option 2 -->
+                                <option value="minorenne">Minorenne</option>
+                                <!-- Option 3 -->
+                                <option value="over_65">Over 65</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <!-- Form Input Col Km da percorrere -->
-                <div class="col-4">
-                    <div class="input_form_content d-flex flex-wrap justify-content-center">
-                        <!-- Input Km Title -->
-                        <h6 class="text-center w-100">Km da percorrere</h6>
-                        <!-- Input Km -->
-                        <input type="text" name="km_user" id="input_km">
+                <!-- Form Input Second Row -->
+                <div class="row m-auto">
+                    <!-- Form Input Col Button -->
+                    <div class="col-12 my-5">
+                        <div class="input_form_content d-flex justify-content-center">
+                            <!-- Button Genera -->
+                            <button type="button" class="mx-3" id="button_genera">Genera</button>
+                            <!-- Button Annulla -->
+                            <button type="reset" class="mx-3" id="button_annulla">Annulla</button>
+                        </div>
                     </div>
                 </div>
-                <!-- Form Input Col Fascia d'età -->
-                <div class="col-4">
-                    <div class="input_form_content d-flex flex-wrap justify-content-center">
-                        <!-- Select Eta Title -->
-                        <h6 class="text-center w-100">Fascia d'età</h6>
-                        <!-- Select Eta -->
-                        <select name="select_eta" class="d-block" id="select_eta">
-                            <!-- Option 1 -->
-                            <option value="maggiorenne">Maggiorenne</option>
-                            <!-- Option 2 -->
-                            <option value="minorenne">Minorenne</option>
-                            <!-- Option 3 -->
-                            <option value="over_65">Over 65</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <!-- Form Input Second Row -->
-            <div class="row m-auto">
-                <!-- Form Input Col Button -->
-                <div class="col-12 my-5">
-                    <div class="input_form_content d-flex justify-content-center">
-                        <!-- Button Genera -->
-                        <button class="mx-3" id="button_genera">Genera</button>
-                        <!-- Button Annulla -->
-                        <button class="mx-3" id="button_annulla">Annulla</button>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
-
         <!-- Output Dati per l'utente -->
         <div class="container border border-black my-5">
             <!-- Output Dati Title -->
