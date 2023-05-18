@@ -60,8 +60,6 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         5.2.4 - Inserire CODICE CP nel Form                                                                     (Math.Random())
 
-        5.2.5 - Stampare il prezzo totale del biglietto nel Form                                                (OUTPUT = prezzo_biglietto_totale.toFixed(2))
-
 
     5.3 - ALTRIMENTI SE la fascia di età dell'utente è: Minorenne
 
@@ -77,9 +75,7 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         5.3.6 - Applicare sconto_minorenni                                                                      (prezzo_biglietto_totale -= sconto_biglietto)
 
-        5.3.7 - Stampare il prezzo totale del biglietto nel Form                                                (OUTPUT = prezzo_biglietto_totale.toFixed(2))
 
-        
     5.4 - ALTRIMENTI SE la fascia di età dell'utente è: Over 65
 
         5.4.1 - Inserire nome passeggero nel Form                                                               (nome_completo_utente)
@@ -94,7 +90,8 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         5.4.6 - Applicare sconto_over_65                                                                        (prezzo_biglietto_totale -= sconto_biglietto)
 
-        5.4.7 - Stampare il prezzo totale del biglietto nel Form                                                (OUTPUT = prezzo_biglietto_totale.toFixed(2))
+
+    5.5 - Stampare il prezzo totale del biglietto nel Form                                                      (OUTPUT = prezzo_biglietto_totale.toFixed(2))
 
         
 6 - Appena l'utente cliccherà il bottone "Annulla":
