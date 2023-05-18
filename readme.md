@@ -14,9 +14,6 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         1.1.5 - prezzo_biglietto_totale
 
-        1.1.6 - button_genera
-
-        1.1.7 - button_annulla
 
 
     1.2 - Constanti
@@ -26,6 +23,10 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
         1.2.2 - sconto_minorenni                                                                                (20%)
 
         1.2.3 - sconto_over_65                                                                                  (40%)
+
+        1.2.4 - button_genera
+
+        1.2.5 - button_annulla
 
 
 
