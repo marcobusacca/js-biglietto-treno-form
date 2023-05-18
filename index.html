@@ -25,7 +25,7 @@
 
     <body>
         <!-- Form Input Dati dall'utente -->
-        <div class="container border border-black">
+        <div class="container border border-black my-5">
             <!-- Form Input Title -->
             <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
             <!-- Form Input -->
@@ -83,8 +83,64 @@
         </div>
 
         <!-- Output Dati per l'utente -->
-        <div class="container">
-            <div class="row"></div>
+        <div class="container border border-black my-5">
+            <!-- Output Dati Title -->
+            <h1 class="text-center">IL TUO BIGLIETTO</h1>
+            <!-- Output Dati Row -->
+            <div class="row">
+                <!-- Output Dati Col Second Title -->
+                <div class="col-12">
+                    <h4>DETTAGLIO PASSEGGERI</h4>
+                </div>
+            </div>
+            <!-- Output Dati Second Row -->
+            <div class="row border border-black">
+                <!-- Output Dati Col Nome Passeggero -->
+                <div class="col-4">
+                    <div class="output_content">
+                        <!-- Nome Passeggero Title -->
+                        <h5>NOME PASSEGGERO</h5>
+                        <!-- Nome Passeggero -->
+                        <span class="nome_completo_utente"></span>
+                    </div>
+                </div>
+                <!-- Output Dati Col Offerta -->
+                <div class="col-2">
+                    <div class="output_content">
+                        <!-- Offerta Title -->
+                        <h6>Offerta</h6>
+                        <!-- Offerta -->
+                        <span class="tipo_biglietto"></span>
+                    </div>
+                </div>
+                <!-- Output Dati Col Carrozza -->
+                <div class="col-2">
+                    <div class="output_content">
+                        <!-- Carrozza Title -->
+                        <h6>Carrozza</h6>
+                        <!-- Carrozza -->
+                        <span class="numero_carrozza"></span>
+                    </div>
+                </div>
+                <!-- Output Dati Col Codice CP -->
+                <div class="col-2">
+                    <div class="output_content">
+                        <!-- Codice CP Title -->
+                        <h6>Codice CP</h6>
+                        <!-- Codice CP -->
+                        <span class="numero_codice_cp"></span>
+                    </div>
+                </div>
+                <!-- Output Dati Col Costo Biglietto -->
+                <div class="col-2">
+                    <div class="output_content">
+                        <!-- Costo Biglietto Title -->
+                        <h6>Costo biglietto</h6>
+                        <!-- Costo Biglietto -->
+                        <span class="prezzo_biglietto_totale"></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
