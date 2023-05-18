@@ -14,6 +14,10 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         1.1.5 - prezzo_biglietto_totale
 
+        1.1.6 - button_genera
+
+        1.1.7 - button_annulla
+
 
     1.2 - Constanti
 
