@@ -7,3 +7,82 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.body_container{
+    position: relative;
+}
+
+.body_container > .form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_container form{
+    box-shadow: 0 0 8px black;
+}
+
+/* INPUT FORM */
+    .input_form_content input,
+    .input_form_content select{
+        border: 1px solid #B60C4A;
+        border-radius: 0.25rem;
+        padding: 3px;
+        font-weight: 600;
+    }
+
+    .input_form_content #button_genera,
+    .input_form_content #button_annulla{
+        border-radius: 0.25rem;
+        padding: 1px 4px;
+    }
+
+    .input_form_content #button_genera{
+        border: 2px solid #DD8C44;
+    }
+
+    .input_form_content #button_annulla{
+        border: 1px solid #676666;
+    }
+/* FINE INPUT FORM */
+
+/* OUTPUT FORM */
+    .output_second_row > .row{
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .output_content span{
+        font-size: 15px;
+    }
+/* FINE OUTPUT FORM */
+
+/* UTILITIES */
+    /* HEIGHT */
+    .h_100vh{
+        height: 100vh;
+    }
+
+    .h_100{
+        height: 100%;
+    }
+
+    /* TEXT COLOR */
+    .txt_winered{
+        color: #B60C4A;
+    }
+
+    /* BG COLOR */
+    .bgcolor_full{
+        background-color: #B91450;
+    }
+
+    .bgcolor_lightgrey{
+        background-color: #CCCCCC;
+    }
+
+    .bgcolor_grey{
+        background-color: #808080;
+    }
+/* FINE UTILITIES */
