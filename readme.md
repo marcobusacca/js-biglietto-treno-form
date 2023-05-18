@@ -47,51 +47,39 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
 5 - Appena l'utente cliccherà il bottone "Genera":
 
-    5.1 - Calcolare il prezzo totale del biglietto                                                              (prezzo_biglietto_unitario * numero_chilometri_utente)
+    5.1 - Inserire nome passeggero nel Form                                                                     (nome_completo_utente)
+
+    5.2 - Calcolare il prezzo totale del biglietto                                                              (prezzo_biglietto_unitario * numero_chilometri_utente)
 
 
-    5.2 - ? SE la fascia di età dell'utente è: Maggiorenne
+    5.3 - ? SE la fascia di età dell'utente è: Maggiorenne
 
-        5.2.1 - Inserire nome passeggero nel Form                                                               (nome_completo_utente)
-
-        5.2.2 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Standard)
-
-        5.2.3 - Inserire Numero Carrozza nel Form                                                               (Math.Random())
-
-        5.2.4 - Inserire CODICE CP nel Form                                                                     (Math.Random())
+        5.3.1 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Standard)
 
 
-    5.3 - ALTRIMENTI SE la fascia di età dell'utente è: Minorenne
+    5.4 - ALTRIMENTI SE la fascia di età dell'utente è: Minorenne
 
-        5.3.1 - Inserire nome passeggero nel Form                                                               (nome_completo_utente)
+        5.4.1 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Scontato)
 
-        5.3.2 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Scontato)
+        5.4.2 - Calcolare sconto_minorenni                                                                      (sconto_biglietto = prezzo_biglietto_totale * sconto_minorenni / 100)
 
-        5.3.3 - Inserire Numero Carrozza nel Form                                                               (Math.Random())
-
-        5.3.4 - Inserire CODICE CP nel Form                                                                     (Math.Random())
-
-        5.3.5 - Calcolare sconto_minorenni                                                                      (sconto_biglietto = prezzo_biglietto_totale * sconto_minorenni / 100)
-
-        5.3.6 - Applicare sconto_minorenni                                                                      (prezzo_biglietto_totale -= sconto_biglietto)
+        5.4.3 - Applicare sconto_minorenni                                                                      (prezzo_biglietto_totale -= sconto_biglietto)
 
 
-    5.4 - ALTRIMENTI SE la fascia di età dell'utente è: Over 65
+    5.5 - ALTRIMENTI SE la fascia di età dell'utente è: Over 65
 
-        5.4.1 - Inserire nome passeggero nel Form                                                               (nome_completo_utente)
+        5.5.1 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Scontato)
 
-        5.4.2 - Inserire Tipo di Biglietto nel Form                                                             (Biglietto Scontato)
+        5.5.2 - Calcolare sconto_over_65                                                                        (sconto_biglietto = prezzo_biglietto_totale * sconto_over_65 / 100)
 
-        5.4.3 - Inserire Numero Carrozza nel Form                                                               (Math.Random())
-
-        5.4.4 - Inserire CODICE CP nel Form                                                                     (Math.Random())
-
-        5.4.5 - Calcolare sconto_over_65                                                                        (sconto_biglietto = prezzo_biglietto_totale * sconto_over_65 / 100)
-
-        5.4.6 - Applicare sconto_over_65                                                                        (prezzo_biglietto_totale -= sconto_biglietto)
+        5.5.3 - Applicare sconto_over_65                                                                        (prezzo_biglietto_totale -= sconto_biglietto)
 
 
-    5.5 - Stampare il prezzo totale del biglietto nel Form                                                      (OUTPUT = prezzo_biglietto_totale.toFixed(2))
+    5.6 - Inserire Numero Carrozza nel Form                                                                     (Math.Random())
+
+    5.7 - Inserire CODICE CP nel Form                                                                           (Math.Random())
+
+    5.8 - Stampare il prezzo totale del biglietto nel Form                                                      (OUTPUT = prezzo_biglietto_totale.toFixed(2))
 
         
 6 - Appena l'utente cliccherà il bottone "Annulla":
