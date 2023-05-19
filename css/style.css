@@ -22,6 +22,12 @@ body{
         max-width: 100%;
     }
 
+    .input_form_content select{
+        width: 217px;
+        height: 32px;
+        text-align: center;
+    }
+
     .input_form_content #button_genera,
     .input_form_content #button_annulla{
         border-radius: 0.25rem;
