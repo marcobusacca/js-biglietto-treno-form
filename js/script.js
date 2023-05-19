@@ -90,14 +90,15 @@ if (button_genera){
         console.log("nome_completo_utente :", nome_completo_utente);
 
         // CONSOLE LOG NUMERO CHILOMETRI UTENTE
-        console.log("numero_chilometri_utente :", numero_chilometri_utente);
+        console.log("numero_chilometri_utente :", numero_chilometri_utente, "km");
 
         // CONSOLE LOG FASCIA ETA UTENTE
         console.log("fascia_età_utente :", fascia_età_utente);
 
         // CONSOLE LOG PREZZO BIGLIETTO TOTALE
-        console.log("prezzo_biglietto_totale :", prezzo_biglietto_totale);
+        console.log("prezzo_biglietto_totale :", prezzo_biglietto_totale, "€");
     })
+    
 } else{
     alert("Non trovo il bottone 'genera'!")
     throw new Error("Non trovo il bottone 'genera'!");

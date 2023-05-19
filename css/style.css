@@ -8,13 +8,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.body_container{
-    position: relative;
-}
-
 .form_container form{
     box-shadow: 0 0 8px black;
 }
+
 /* INPUT FORM */
     .input_form_content input,
     .input_form_content select{
@@ -79,6 +76,7 @@ body{
 /* LAYOUT RESPONSIVE */
     @media screen and (min-width: 768px){
         .body_container{
+            position: relative;
             height: 100vh;
         }
 
