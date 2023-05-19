@@ -1,3 +1,4 @@
+"use strict";
 // DICHIARAZIONE VARIABILI DI INPUT
 let nome_completo_utente;
 let numero_chilometri_utente;
