@@ -2,7 +2,6 @@
 let nome_completo_utente;
 let numero_chilometri_utente;
 let fascia_età_utente;
-let sconto_biglietto;
 let prezzo_biglietto_totale;
 
 // DICHIARAZIONE VARIABILI DI OUTPUT
@@ -49,8 +48,7 @@ if (button_genera){
             document.getElementById('tipo_biglietto').innerHTML = "Biglietto Scontato";
 
             // CALCOLO PREZZO BIGLIETTO TOTALE SCONTO MINORENNE
-            sconto_biglietto = prezzo_biglietto_totale * sconto_minorenni / 100;
-            prezzo_biglietto_totale -= sconto_biglietto;
+            prezzo_biglietto_totale *= (100 - sconto_minorenni) / 100;
 
             // INSERIMENTO PREZZO BIGLIETTO TOTALE SCONTO MINORENNE IN OUTPUT
             let prezzo_biglietto_totale_output_fixed = prezzo_biglietto_totale.toFixed(2);
@@ -61,8 +59,7 @@ if (button_genera){
             document.getElementById('tipo_biglietto').innerHTML = "Biglietto Scontato";
 
             // CALCOLO PREZZO BIGLIETTO TOTALE SCONTO OVER 65
-            sconto_biglietto = prezzo_biglietto_totale * sconto_over_65 / 100;
-            prezzo_biglietto_totale -= sconto_biglietto;
+            prezzo_biglietto_totale *= (100 - sconto_over_65) / 100;
 
             // INSERIMENTO PREZZO BIGLIETTO TOTALE SCONTO MINORENNE IN OUTPUT
             let prezzo_biglietto_totale_output_fixed = prezzo_biglietto_totale.toFixed(2);
@@ -98,7 +95,7 @@ if (button_genera){
         // CONSOLE LOG PREZZO BIGLIETTO TOTALE
         console.log("prezzo_biglietto_totale :", prezzo_biglietto_totale, "€");
     })
-    
+
 } else{
     alert("Non trovo il bottone 'genera'!")
     throw new Error("Non trovo il bottone 'genera'!");

@@ -10,9 +10,7 @@ PROBLEMA: Creare un programma che permette all'utente di calcolare il prezzo del
 
         1.1.3 - fascia_età_utente                                                                               (INPUT = da chiedere all'utente)
 
-        1.1.4 - sconto_biglietto
-
-        1.1.5 - prezzo_biglietto_totale
+        1.1.4 - prezzo_biglietto_totale
 
 
 
