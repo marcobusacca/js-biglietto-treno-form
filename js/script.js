@@ -40,9 +40,8 @@ if (button_genera){
 
         // CONTROLLO NOME COMPLETO E NUMERO CHILOMETRI UTENTE
         if (nome_completo_utente === "" || !isNaN(nome_completo_utente) || numero_chilometri_utente === 0 || isNaN(numero_chilometri_utente)){
-            // L'UTENTE HA LASCIATO UNO DEI CAMPI VUOTI, OPPURE HA INSERITO MALE I CHILOMETRI DA PERCORRERE
+            // L'UTENTE HA LASCIATO UNO DEI CAMPI VUOTI, OPPURE HA INSERITO MALE IL NOME COMPLETO O I CHILOMETRI DA PERCORRERE
             alert("Devi inserire i dati correttamente!");
-            throw new Error("Devi inserire i dati correttamente!");
 
         } else if (fascia_età_utente === "minorenne"){
             // INSERIMENTO TIPO DI BIGLIETTO IN OUTPUT
@@ -99,7 +98,6 @@ if (button_genera){
 
 } else{
     alert("Non trovo il bottone 'genera'!")
-    throw new Error("Non trovo il bottone 'genera'!");
 }
 
 if (button_annulla){
@@ -122,5 +120,4 @@ if (button_annulla){
 
 } else{
     alert("Non trovo il bottone 'annulla'!")
-    throw new Error("Non trovo il bottone 'annulla'!");
 }
